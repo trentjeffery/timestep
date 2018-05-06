@@ -3,3 +3,33 @@ Game engine and gameplay
 - gameplay related code
 - game loop
 - process user input from app
+
+TODO
+- world
+	- level
+	- position
+	- layers
+- basic physics (collision/impasse)
+- map
+- movement
+- timing/turn system
+	- relaxed
+	- real-time
+	- phases
+		- action selection
+		- action execution
+		- action resolution
+- control system
+	- input processing
+	- action selection/lock-in
+- actions
+	- move
+	- attack
+	- block/special
+- health
+- scoring/win/loss
+- character
+	- class
+	- traits
+	- abilities
+- game loop (how does this fit with main loop and rendering loop? Is it the same as turn processing?)

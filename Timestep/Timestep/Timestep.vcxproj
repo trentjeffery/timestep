@@ -115,6 +115,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Text Include="app\readme.txt" />
+    <Text Include="game\readme.txt" />
+    <Text Include="graphics\readme.txt" />
+    <Text Include="math\readme.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
