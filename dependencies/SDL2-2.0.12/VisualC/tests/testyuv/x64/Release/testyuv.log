@@ -1,0 +1,6 @@
+﻿  Copying testyuv.bmp
+          1 file(s) copied.
+  testyuv.c
+  testyuv_cvt.c
+  Generating Code...
+  testyuv.vcxproj -> C:\projects\timestep\dependencies\SDL2-2.0.12\VisualC\x64\Release\testyuv.exe

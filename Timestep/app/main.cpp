@@ -5,6 +5,7 @@
 void Init()
 {
 	std::cout << "Init\n";
+	SDL_Init(SDL_INIT_VIDEO);
 }
 
 bool Update()
@@ -16,6 +17,7 @@ bool Update()
 void Cleanup()
 {
 	std::cout << "Cleanup\n";
+	SDL_Quit();
 }
 
 int main(int argc, char* argv[])
@@ -25,7 +27,7 @@ int main(int argc, char* argv[])
 	
 	while (Update())
 	{
-
+		break;
 	}
 	
 	Cleanup();
